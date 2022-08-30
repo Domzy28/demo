@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    /* box-sizing: border-box; */
+}
+
+nav{
+    background-color: rgb(3, 29, 12);
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+li{
+    display: inline;
+    
+}
+a{
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+}
+
+.btn{
+    text-align: center;
+    border-radius: 20px;
+    background-color: greenyellow;
+    color: white;
+    padding: 10px 25px;
+}
+
+span{
+    color: greenyellow;
+}
+.home{
+    background-image: url(../images/green-recycling-icon-design-element_53876-103073.webp);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid yellowgreen;
+    width: 98%;
+    height: 400px;
+    margin: 10px;
+    border-radius: 20px;
+}
+input{
+    border-radius: 20px;
+    width: 25%;
+    height: 40px;
+    /* margin: 10px; */
+}
+
+.home p{
+    font-size: large;
+    margin-left: 33%;
+    margin-top: 5%;
+}
+.services{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.services{
+    padding: 10px;
+}
+.box{
+    border: 1px solid greenyellow;
+    margin: 5px;
+    text-align: center;
+    border-radius: 15px;
+
+}
+#serve{
+    text-align: center;
+}
+img{
+    width: 200px;
+}
+
+
+.box1{
+    flex: 1;
+}
+.box2{
+    flex: 1;
+}
+.box3{
+    flex: 1;
+}
+.box4{
+    flex: 1;
+}
+
+.contact{
+    display: flex;
+}
+
+.ours{
+    flex: 1;
+    background-color: greenyellow;
+    margin: 10px 0px 0px 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.yours{
+    flex: 1;
+    background-color: rgb(6, 39, 6);
+    color: white;
+    margin: -10px 10px -20px -20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+#input{
+    width: 50%;
+    margin: 10px;
+}
+
+.blog{
+    display: flex;
+    border: 1px solid green;
+    margin: 20px 10px;
+    border-radius: 10px;
+
+}
+.blg{
+    flex: 1;
+    border: 1px solid greenyellow;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+#blog{
+    text-align: center;
+    margin-top: 30px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    color: white;
+    height: auto;
+}
+footer div{
+    padding: 20px;
+    flex: 1;
+    height: ;
+    background-color: rgb(6, 39, 6);
+}
